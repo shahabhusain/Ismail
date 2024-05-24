@@ -18,3 +18,8 @@
    border-radius: 20px;
 }
 
+body{
+
+  max-width: 1600px;
+  margin: 0px auto;
+}
