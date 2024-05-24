@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f8f8f8] dark:bg-black text-black dark:text-white;
+  }
+}
+
+.swiper-pagination-bullet
+{
+  /* color: white; */
+}
+.swiper-pagination-bullet-active{
+  width: 100px !important;
+  background-color: #EF3C59;
+   border-radius: 20px;
+}
+
